@@ -17,7 +17,6 @@
                 android:id="@+id/photo"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
-                android:layout_centerHorizontal="true"
                 android:src="@drawable/aboutme"
                 app:civ_border_width="2dp"
                 app:civ_border_color="@color/colorPrimaryDark" />
@@ -27,7 +26,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/name"
                 android:textSize="22sp"
-                android:gravity="center_horizontal"/>
+                android:gravity="center_horizontal"
+                android:textColor="@color/colorPrimaryDark"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -38,7 +38,110 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="5">
-
+        android:layout_weight="5"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="6"
+                    android:src="@drawable/github_logo"
+                    app:civ_border_width="1dp"
+                    app:civ_border_color="@color/colorPrimaryDark"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:text="tupic98"
+                    android:textSize="16sp"
+                    android:gravity="center_horizontal"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="6"
+                    android:src="@drawable/email"
+                    app:civ_border_width="1dp"
+                    app:civ_border_color="@color/colorPrimaryDark"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:text="raalvarenga423@gmail.com"
+                    android:textSize="14sp"
+                    android:gravity="center_horizontal"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="6"
+                    android:src="@drawable/mobile_phone"
+                    app:civ_border_width="1dp"
+                    app:civ_border_color="@color/colorPrimaryDark"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:text="(+503) 7293-6840"
+                    android:textSize="16sp"
+                    android:gravity="center_horizontal"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="6"
+                    android:src="@drawable/twitter_black_shape"
+                    app:civ_border_width="1dp"
+                    app:civ_border_color="@color/colorPrimaryDark"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:text="AlejandroTupic"
+                    android:textSize="16sp"
+                    android:gravity="center_horizontal"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Powered by: Rodrigo Alejandro Alvarenga"
+            android:gravity="center_horizontal"/>
     </LinearLayout>
 </LinearLayout>
