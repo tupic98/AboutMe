@@ -2,4 +2,5 @@
     <string name="app_name">AboutMe</string>
     <string name="name">Rodrigo Alejandro Alvarenga Pérez</string>
     <string name="career_name">Ingeniería Informática</string>
+    <string name="action_settings">Share</string>
 </resources>
