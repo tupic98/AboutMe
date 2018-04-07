@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">AboutMe</string>
+    <string name="send">Send</string>
     <string name="name">Rodrigo Alejandro Alvarenga Pérez</string>
     <string name="career_name">Ingeniería Informática</string>
     <string name="action_settings">Share</string>
+    <string name="github_name">tupic98</string>
+    <string name="email">raalvarenga423@gmail.com</string>
+    <string name="phone">(+503) 7293-6840</string>
+    <string name="tw_name">AlejandroTupic</string>
 </resources>
