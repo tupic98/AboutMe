@@ -55,23 +55,18 @@
                 android:layout_weight="1"
                 android:orientation="vertical"
                 tools:ignore="NestedWeights"
-                android:weightSum="5">
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="1"/>
+                android:layout_gravity="center">
+
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="wrap_content"
-                    android:layout_height="0dp"
-                    android:layout_weight="2"
+                    android:layout_height="50dp"
                     android:src="@drawable/github_logo"
                     app:civ_border_width="1dp"
                     app:civ_border_color="@color/colorPrimaryDark"
                     tools:ignore="NestedWeights" />
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
                     android:text="@string/github_name"
                     android:textSize="16sp"
                     android:gravity="center_horizontal"/>
@@ -80,22 +75,18 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:orientation="vertical">
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="1"/>
+                android:orientation="vertical"
+                android:layout_gravity="center">
+
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="wrap_content"
-                    android:layout_height="0dp"
-                    android:layout_weight="2"
+                    android:layout_height="50dp"
                     android:src="@drawable/email"
                     app:civ_border_width="1dp"
                     app:civ_border_color="@color/colorPrimaryDark"/>
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
                     android:text="@string/email"
                     android:textSize="14sp"
                     android:gravity="center_horizontal"/>
@@ -110,22 +101,21 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:orientation="vertical">
-                <TextView
+                android:orientation="vertical"
+                android:layout_gravity="center">
+                <!--<TextView
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1"/>-->
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="wrap_content"
-                    android:layout_height="0dp"
-                    android:layout_weight="2"
+                    android:layout_height="50dp"
                     android:src="@drawable/mobile_phone"
                     app:civ_border_width="1dp"
                     app:civ_border_color="@color/colorPrimaryDark"/>
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
                     android:text="@string/phone"
                     android:textSize="16sp"
                     android:gravity="center_horizontal"/>
@@ -134,22 +124,21 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:orientation="vertical">
-                <TextView
+                android:orientation="vertical"
+                android:layout_gravity="center">
+                <!--<TextView
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1"/>-->
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="wrap_content"
-                    android:layout_height="0dp"
-                    android:layout_weight="2"
+                    android:layout_height="50dp"
                     android:src="@drawable/twitter_black_shape"
                     app:civ_border_width="1dp"
                     app:civ_border_color="@color/colorPrimaryDark"/>
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
                     android:text="@string/tw_name"
                     android:textSize="16sp"
                     android:gravity="center_horizontal"/>
